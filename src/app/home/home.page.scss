@@ -25,3 +25,64 @@
 #container a {
   text-decoration: none;
 }
+
+.toolbar {
+  height: 84px;
+  --background: #115173;
+  color: #fff;
+  line-height: 84px;
+}
+
+.container {
+  ion-thumbnail {
+    width: 100px;
+    height: 100px;
+    img {
+      border-radius: 7px;
+    }
+  }
+  ion-label {
+    h2 {
+      span {
+        float: right;
+        color: #115173;
+        font-weight: 600;
+      }
+    }
+    h3 {
+      ion-icon {
+        color: #FFD700;
+        margin-right: 10px;
+      }
+    }
+
+    .quantity {
+      margin-top: 5px;
+
+      .minus, .plus {
+        font-weight: 600;
+        padding: 5px;
+      }
+
+      .minus {
+        margin-right: 12px;
+      }
+
+      .plus {
+        margin-left: 12px;
+      }
+
+      .btn {
+        float: right;
+
+        .btn-add {
+          padding: 10px 20px;
+          color: #fff;
+          background-color: #115173;
+        }
+      }
+
+
+    }
+  }
+}
